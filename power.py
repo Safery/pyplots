@@ -1,10 +1,8 @@
 #!/usr/bin/python
-
 from numpy import fft
 import numpy as np
 import matplotlib.pyplot as plt
 from sys import argv
-import scipy.fftpack
 script, infile = argv
 
 y = []
