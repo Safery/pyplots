@@ -14,3 +14,6 @@ with open(infile, "r") as f:
 
 plt.plot(x,v)
 plt.show()
+plt.savefig('p'+infile.strip('eFULL')+'.pdf')
+plt.savefig('p'+infile.strip('eFULL')+'.jpg')
+
