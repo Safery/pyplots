@@ -4,9 +4,11 @@
 # example data for this file is in the file .hashtags in this repo
 #
 
+import Image
+from numpy import fft
+import numpy as np
+import matplotlib.pyplot as plt
 import sys
-import os
-from sys import argv
 
 infile = sys.argv[1]
 hashTags = []
