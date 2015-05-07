@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #
-# example data for this file is in the file .hash in this repo
+# example data for this file is in the file .hashtags in this repo
 #
 
 import sys
